@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		FF5197F82DA86E1E00FF6820 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF5197D92DA86E1D00FF6820 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF5197E02DA86E1D00FF6820;
+			remoteInfo = TeknolojiList;
+		};
+		FF5198022DA86E1E00FF6820 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF5197D92DA86E1D00FF6820 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF5197E02DA86E1D00FF6820;
+			remoteInfo = TeknolojiList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF5197E12DA86E1D00FF6820 /* TeknolojiList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeknolojiList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF5197F72DA86E1E00FF6820 /* TeknolojiListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeknolojiListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF5198012DA86E1E00FF6820 /* TeknolojiListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeknolojiListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		FF5198092DA86E1E00FF6820 /* Exceptions for "TeknolojiList" folder in "TeknolojiList" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = FF5197E02DA86E1D00FF6820 /* TeknolojiList */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FF5197E32DA86E1D00FF6820 /* TeknolojiList */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FF5198092DA86E1E00FF6820 /* Exceptions for "TeknolojiList" folder in "TeknolojiList" target */,
+			);
+			path = TeknolojiList;
+			sourceTree = "<group>";
+		};
+		FF5197FA2DA86E1E00FF6820 /* TeknolojiListTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TeknolojiListTests;
+			sourceTree = "<group>";
+		};
+		FF5198042DA86E1E00FF6820 /* TeknolojiListUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TeknolojiListUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF5197DE2DA86E1D00FF6820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF5197F42DA86E1E00FF6820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF5197FE2DA86E1E00FF6820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF5197D82DA86E1D00FF6820 = {
+			isa = PBXGroup;
+			children = (
+				FF5197E32DA86E1D00FF6820 /* TeknolojiList */,
+				FF5197FA2DA86E1E00FF6820 /* TeknolojiListTests */,
+				FF5198042DA86E1E00FF6820 /* TeknolojiListUITests */,
+				FF5197E22DA86E1D00FF6820 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF5197E22DA86E1D00FF6820 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF5197E12DA86E1D00FF6820 /* TeknolojiList.app */,
+				FF5197F72DA86E1E00FF6820 /* TeknolojiListTests.xctest */,
+				FF5198012DA86E1E00FF6820 /* TeknolojiListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF5197E02DA86E1D00FF6820 /* TeknolojiList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF51980A2DA86E1E00FF6820 /* Build configuration list for PBXNativeTarget "TeknolojiList" */;
+			buildPhases = (
+				FF5197DD2DA86E1D00FF6820 /* Sources */,
+				FF5197DE2DA86E1D00FF6820 /* Frameworks */,
+				FF5197DF2DA86E1D00FF6820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FF5197E32DA86E1D00FF6820 /* TeknolojiList */,
+			);
+			name = TeknolojiList;
+			packageProductDependencies = (
+			);
+			productName = TeknolojiList;
+			productReference = FF5197E12DA86E1D00FF6820 /* TeknolojiList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF5197F62DA86E1E00FF6820 /* TeknolojiListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF51980F2DA86E1E00FF6820 /* Build configuration list for PBXNativeTarget "TeknolojiListTests" */;
+			buildPhases = (
+				FF5197F32DA86E1E00FF6820 /* Sources */,
+				FF5197F42DA86E1E00FF6820 /* Frameworks */,
+				FF5197F52DA86E1E00FF6820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF5197F92DA86E1E00FF6820 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FF5197FA2DA86E1E00FF6820 /* TeknolojiListTests */,
+			);
+			name = TeknolojiListTests;
+			packageProductDependencies = (
+			);
+			productName = TeknolojiListTests;
+			productReference = FF5197F72DA86E1E00FF6820 /* TeknolojiListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF5198002DA86E1E00FF6820 /* TeknolojiListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF5198122DA86E1E00FF6820 /* Build configuration list for PBXNativeTarget "TeknolojiListUITests" */;
+			buildPhases = (
+				FF5197FD2DA86E1E00FF6820 /* Sources */,
+				FF5197FE2DA86E1E00FF6820 /* Frameworks */,
+				FF5197FF2DA86E1E00FF6820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF5198032DA86E1E00FF6820 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FF5198042DA86E1E00FF6820 /* TeknolojiListUITests */,
+			);
+			name = TeknolojiListUITests;
+			packageProductDependencies = (
+			);
+			productName = TeknolojiListUITests;
+			productReference = FF5198012DA86E1E00FF6820 /* TeknolojiListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF5197D92DA86E1D00FF6820 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					FF5197E02DA86E1D00FF6820 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					FF5197F62DA86E1E00FF6820 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = FF5197E02DA86E1D00FF6820;
+					};
+					FF5198002DA86E1E00FF6820 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = FF5197E02DA86E1D00FF6820;
+					};
+				};
+			};
+			buildConfigurationList = FF5197DC2DA86E1D00FF6820 /* Build configuration list for PBXProject "TeknolojiList" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF5197D82DA86E1D00FF6820;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FF5197E22DA86E1D00FF6820 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF5197E02DA86E1D00FF6820 /* TeknolojiList */,
+				FF5197F62DA86E1E00FF6820 /* TeknolojiListTests */,
+				FF5198002DA86E1E00FF6820 /* TeknolojiListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF5197DF2DA86E1D00FF6820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF5197F52DA86E1E00FF6820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF5197FF2DA86E1E00FF6820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF5197DD2DA86E1D00FF6820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF5197F32DA86E1E00FF6820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF5197FD2DA86E1E00FF6820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF5197F92DA86E1E00FF6820 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF5197E02DA86E1D00FF6820 /* TeknolojiList */;
+			targetProxy = FF5197F82DA86E1E00FF6820 /* PBXContainerItemProxy */;
+		};
+		FF5198032DA86E1E00FF6820 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF5197E02DA86E1D00FF6820 /* TeknolojiList */;
+			targetProxy = FF5198022DA86E1E00FF6820 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FF51980B2DA86E1E00FF6820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T985K3P4V7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TeknolojiList/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omerapaydin.TeknolojiList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF51980C2DA86E1E00FF6820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T985K3P4V7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TeknolojiList/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omerapaydin.TeknolojiList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF51980D2DA86E1E00FF6820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF51980E2DA86E1E00FF6820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF5198102DA86E1E00FF6820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T985K3P4V7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omerapaydin.TeknolojiListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeknolojiList.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TeknolojiList";
+			};
+			name = Debug;
+		};
+		FF5198112DA86E1E00FF6820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T985K3P4V7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omerapaydin.TeknolojiListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeknolojiList.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TeknolojiList";
+			};
+			name = Release;
+		};
+		FF5198132DA86E1E00FF6820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T985K3P4V7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omerapaydin.TeknolojiListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TeknolojiList;
+			};
+			name = Debug;
+		};
+		FF5198142DA86E1E00FF6820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T985K3P4V7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omerapaydin.TeknolojiListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TeknolojiList;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF5197DC2DA86E1D00FF6820 /* Build configuration list for PBXProject "TeknolojiList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF51980D2DA86E1E00FF6820 /* Debug */,
+				FF51980E2DA86E1E00FF6820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF51980A2DA86E1E00FF6820 /* Build configuration list for PBXNativeTarget "TeknolojiList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF51980B2DA86E1E00FF6820 /* Debug */,
+				FF51980C2DA86E1E00FF6820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF51980F2DA86E1E00FF6820 /* Build configuration list for PBXNativeTarget "TeknolojiListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF5198102DA86E1E00FF6820 /* Debug */,
+				FF5198112DA86E1E00FF6820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF5198122DA86E1E00FF6820 /* Build configuration list for PBXNativeTarget "TeknolojiListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF5198132DA86E1E00FF6820 /* Debug */,
+				FF5198142DA86E1E00FF6820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF5197D92DA86E1D00FF6820 /* Project object */;
+}
