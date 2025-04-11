@@ -46,7 +46,7 @@ class ViewController: UIViewController ,UICollectionViewDelegate,UICollectionVie
         
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "tekCell", for: indexPath) as! CollectionViewCell
         cell.nameLabel.text = techList[indexPath.row].techName
-        cell.priceLabel.text = "\(techList[indexPath.row].texhPrice) TL"
+        cell.priceLabel.text = "\(techList[indexPath.row].texhPrice ?? 0) TL"
         cell.techImage.image = UIImage(named: techList[indexPath.row].texhImage ?? "")
         
         return cell
