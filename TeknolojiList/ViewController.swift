@@ -19,6 +19,27 @@ class ViewController: UIViewController ,UICollectionViewDelegate,UICollectionVie
         collectionView.delegate = self
         collectionView.dataSource = self
         
+        
+        
+        let tasarim:UICollectionViewFlowLayout = UICollectionViewFlowLayout()
+        
+        let genislik = self.collectionView.frame.size.width
+        
+        tasarim.sectionInset = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
+        
+        tasarim.minimumInteritemSpacing = 10
+        tasarim.minimumLineSpacing = 10
+        
+        
+        let hucreGenislik = (genislik-30)/2
+        
+        tasarim.itemSize = CGSize(width: hucreGenislik, height: hucreGenislik*1.3)
+        
+        collectionView!.collectionViewLayout = tasarim
+        
+        
+        
+        
         var tech1 = Tech(techId: 1, techName: "Airpods Max", texhImage: "airpods-max", texhPrice: 12.000)
         var tech2 = Tech(techId: 2, techName: "Airpods Pro", texhImage: "airpods-pro-2-hero-select-202409", texhPrice: 13.000)
         var tech3 = Tech(techId: 3, techName: "Homepod", texhImage: "homepod", texhPrice: 7.000)
@@ -48,6 +69,10 @@ class ViewController: UIViewController ,UICollectionViewDelegate,UICollectionVie
         cell.nameLabel.text = techList[indexPath.row].techName
         cell.priceLabel.text = "\(techList[indexPath.row].texhPrice ?? 0) TL"
         cell.techImage.image = UIImage(named: techList[indexPath.row].texhImage ?? "")
+        
+        cell.layer.borderColor = UIColor.lightGray.cgColor
+        cell.layer.borderWidth = 0.5
+        
         
         return cell
     }
